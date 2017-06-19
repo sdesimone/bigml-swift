@@ -61,6 +61,29 @@
 		497C6A4B1C5277B300FCB6F5 /* bigmlSwiftLogisticRegressionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C6A041C5271C400FCB6F5 /* bigmlSwiftLogisticRegressionTests.swift */; };
 		497C6A4D1C5277B300FCB6F5 /* bigmlSwiftPredictionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 497C6A071C5271C400FCB6F5 /* bigmlSwiftPredictionTests.swift */; };
 		497C6A4F1C5278EE00FCB6F5 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 497C6A4E1C5278EE00FCB6F5 /* Info.plist */; };
+		49B6D7FC1EF7E65000CCA9CF /* BMLEnums.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7EB1EF7E65000CCA9CF /* BMLEnums.h */; };
+		49B6D7FD1EF7E65000CCA9CF /* BMLResourceProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7EC1EF7E65000CCA9CF /* BMLResourceProtocol.h */; };
+		49B6D7FE1EF7E65000CCA9CF /* BMLResourceProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7ED1EF7E65000CCA9CF /* BMLResourceProtocol.m */; };
+		49B6D7FF1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7EE1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.h */; };
+		49B6D8001EF7E65000CCA9CF /* BMLResourceTypeIdentifier.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7EF1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.m */; };
+		49B6D8011EF7E65000CCA9CF /* BMLUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7F01EF7E65000CCA9CF /* BMLUtils.h */; };
+		49B6D8021EF7E65000CCA9CF /* BMLUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7F11EF7E65000CCA9CF /* BMLUtils.m */; };
+		49B6D8031EF7E65000CCA9CF /* FieldResource.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7F21EF7E65000CCA9CF /* FieldResource.h */; };
+		49B6D8041EF7E65000CCA9CF /* FieldResource.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7F31EF7E65000CCA9CF /* FieldResource.m */; };
+		49B6D8051EF7E65000CCA9CF /* LogisticRegression.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7F41EF7E65000CCA9CF /* LogisticRegression.h */; };
+		49B6D8061EF7E65000CCA9CF /* LogisticRegression.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7F51EF7E65000CCA9CF /* LogisticRegression.m */; };
+		49B6D8071EF7E65000CCA9CF /* NSError+BMLError.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7F61EF7E65000CCA9CF /* NSError+BMLError.h */; };
+		49B6D8081EF7E65000CCA9CF /* NSError+BMLError.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7F71EF7E65000CCA9CF /* NSError+BMLError.m */; };
+		49B6D8091EF7E65000CCA9CF /* NSMutableData+BMLData.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7F81EF7E65000CCA9CF /* NSMutableData+BMLData.h */; };
+		49B6D80A1EF7E65000CCA9CF /* NSMutableData+BMLData.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7F91EF7E65000CCA9CF /* NSMutableData+BMLData.m */; };
+		49B6D80B1EF7E65000CCA9CF /* TopicModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D7FA1EF7E65000CCA9CF /* TopicModel.h */; };
+		49B6D80C1EF7E65000CCA9CF /* TopicModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D7FB1EF7E65000CCA9CF /* TopicModel.m */; };
+		49B6D8111EF7E69B00CCA9CF /* Predicates.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D80D1EF7E69B00CCA9CF /* Predicates.h */; };
+		49B6D8121EF7E69B00CCA9CF /* Predicates.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D80E1EF7E69B00CCA9CF /* Predicates.m */; };
+		49B6D8131EF7E69B00CCA9CF /* PredictionTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D80F1EF7E69B00CCA9CF /* PredictionTree.h */; };
+		49B6D8141EF7E69B00CCA9CF /* PredictionTree.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D8101EF7E69B00CCA9CF /* PredictionTree.m */; };
+		49B6D8171EF7E6BB00CCA9CF /* TreePrediction.h in Headers */ = {isa = PBXBuildFile; fileRef = 49B6D8151EF7E6BB00CCA9CF /* TreePrediction.h */; };
+		49B6D8181EF7E6BB00CCA9CF /* TreePrediction.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B6D8161EF7E6BB00CCA9CF /* TreePrediction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -128,6 +151,29 @@
 		497C6A361C52775000FCB6F5 /* bigml-swiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "bigml-swiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		497C6A411C52777C00FCB6F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = "bigml-swiftTests/Info.plist"; sourceTree = SOURCE_ROOT; };
 		497C6A4E1C5278EE00FCB6F5 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		49B6D7EB1EF7E65000CCA9CF /* BMLEnums.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLEnums.h; sourceTree = "<group>"; };
+		49B6D7EC1EF7E65000CCA9CF /* BMLResourceProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLResourceProtocol.h; sourceTree = "<group>"; };
+		49B6D7ED1EF7E65000CCA9CF /* BMLResourceProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLResourceProtocol.m; sourceTree = "<group>"; };
+		49B6D7EE1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLResourceTypeIdentifier.h; sourceTree = "<group>"; };
+		49B6D7EF1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLResourceTypeIdentifier.m; sourceTree = "<group>"; };
+		49B6D7F01EF7E65000CCA9CF /* BMLUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BMLUtils.h; sourceTree = "<group>"; };
+		49B6D7F11EF7E65000CCA9CF /* BMLUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BMLUtils.m; sourceTree = "<group>"; };
+		49B6D7F21EF7E65000CCA9CF /* FieldResource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FieldResource.h; sourceTree = "<group>"; };
+		49B6D7F31EF7E65000CCA9CF /* FieldResource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FieldResource.m; sourceTree = "<group>"; };
+		49B6D7F41EF7E65000CCA9CF /* LogisticRegression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogisticRegression.h; sourceTree = "<group>"; };
+		49B6D7F51EF7E65000CCA9CF /* LogisticRegression.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogisticRegression.m; sourceTree = "<group>"; };
+		49B6D7F61EF7E65000CCA9CF /* NSError+BMLError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BMLError.h"; sourceTree = "<group>"; };
+		49B6D7F71EF7E65000CCA9CF /* NSError+BMLError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BMLError.m"; sourceTree = "<group>"; };
+		49B6D7F81EF7E65000CCA9CF /* NSMutableData+BMLData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSMutableData+BMLData.h"; sourceTree = "<group>"; };
+		49B6D7F91EF7E65000CCA9CF /* NSMutableData+BMLData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableData+BMLData.m"; sourceTree = "<group>"; };
+		49B6D7FA1EF7E65000CCA9CF /* TopicModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopicModel.h; sourceTree = "<group>"; };
+		49B6D7FB1EF7E65000CCA9CF /* TopicModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopicModel.m; sourceTree = "<group>"; };
+		49B6D80D1EF7E69B00CCA9CF /* Predicates.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Predicates.h; sourceTree = "<group>"; };
+		49B6D80E1EF7E69B00CCA9CF /* Predicates.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Predicates.m; sourceTree = "<group>"; };
+		49B6D80F1EF7E69B00CCA9CF /* PredictionTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PredictionTree.h; sourceTree = "<group>"; };
+		49B6D8101EF7E69B00CCA9CF /* PredictionTree.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PredictionTree.m; sourceTree = "<group>"; };
+		49B6D8151EF7E6BB00CCA9CF /* TreePrediction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TreePrediction.h; sourceTree = "<group>"; };
+		49B6D8161EF7E6BB00CCA9CF /* TreePrediction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TreePrediction.m; sourceTree = "<group>"; };
 		49C5AA6E1AEF943800B81AA6 /* bigmlSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = bigmlSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -171,6 +217,7 @@
 		497C69861C52709000FCB6F5 /* algorithms */ = {
 			isa = PBXGroup;
 			children = (
+				49B6D7E21EF7E5B200CCA9CF /* objc */,
 				497C69871C52709000FCB6F5 /* Anomaly.swift */,
 				497C69881C52709000FCB6F5 /* Association.swift */,
 				497C69891C52709000FCB6F5 /* AssociationItem.swift */,
@@ -214,6 +261,36 @@
 			name = data;
 			path = "bigml-swiftTests/data";
 			sourceTree = SOURCE_ROOT;
+		};
+		49B6D7E21EF7E5B200CCA9CF /* objc */ = {
+			isa = PBXGroup;
+			children = (
+				49B6D80D1EF7E69B00CCA9CF /* Predicates.h */,
+				49B6D80E1EF7E69B00CCA9CF /* Predicates.m */,
+				49B6D80F1EF7E69B00CCA9CF /* PredictionTree.h */,
+				49B6D8101EF7E69B00CCA9CF /* PredictionTree.m */,
+				49B6D8151EF7E6BB00CCA9CF /* TreePrediction.h */,
+				49B6D8161EF7E6BB00CCA9CF /* TreePrediction.m */,
+				49B6D7EB1EF7E65000CCA9CF /* BMLEnums.h */,
+				49B6D7EC1EF7E65000CCA9CF /* BMLResourceProtocol.h */,
+				49B6D7ED1EF7E65000CCA9CF /* BMLResourceProtocol.m */,
+				49B6D7EE1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.h */,
+				49B6D7EF1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.m */,
+				49B6D7F01EF7E65000CCA9CF /* BMLUtils.h */,
+				49B6D7F11EF7E65000CCA9CF /* BMLUtils.m */,
+				49B6D7F21EF7E65000CCA9CF /* FieldResource.h */,
+				49B6D7F31EF7E65000CCA9CF /* FieldResource.m */,
+				49B6D7F41EF7E65000CCA9CF /* LogisticRegression.h */,
+				49B6D7F51EF7E65000CCA9CF /* LogisticRegression.m */,
+				49B6D7F61EF7E65000CCA9CF /* NSError+BMLError.h */,
+				49B6D7F71EF7E65000CCA9CF /* NSError+BMLError.m */,
+				49B6D7F81EF7E65000CCA9CF /* NSMutableData+BMLData.h */,
+				49B6D7F91EF7E65000CCA9CF /* NSMutableData+BMLData.m */,
+				49B6D7FA1EF7E65000CCA9CF /* TopicModel.h */,
+				49B6D7FB1EF7E65000CCA9CF /* TopicModel.m */,
+			);
+			path = objc;
+			sourceTree = "<group>";
 		};
 		49C5AA641AEF943800B81AA6 = {
 			isa = PBXGroup;
@@ -277,7 +354,19 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49B6D8171EF7E6BB00CCA9CF /* TreePrediction.h in Headers */,
+				49B6D80B1EF7E65000CCA9CF /* TopicModel.h in Headers */,
 				497C69B21C52709000FCB6F5 /* BMLConnector.h in Headers */,
+				49B6D8111EF7E69B00CCA9CF /* Predicates.h in Headers */,
+				49B6D8051EF7E65000CCA9CF /* LogisticRegression.h in Headers */,
+				49B6D8091EF7E65000CCA9CF /* NSMutableData+BMLData.h in Headers */,
+				49B6D7FF1EF7E65000CCA9CF /* BMLResourceTypeIdentifier.h in Headers */,
+				49B6D8071EF7E65000CCA9CF /* NSError+BMLError.h in Headers */,
+				49B6D8131EF7E69B00CCA9CF /* PredictionTree.h in Headers */,
+				49B6D8011EF7E65000CCA9CF /* BMLUtils.h in Headers */,
+				49B6D8031EF7E65000CCA9CF /* FieldResource.h in Headers */,
+				49B6D7FC1EF7E65000CCA9CF /* BMLEnums.h in Headers */,
+				49B6D7FD1EF7E65000CCA9CF /* BMLResourceProtocol.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -336,6 +425,7 @@
 					};
 					49C5AA6D1AEF943800B81AA6 = {
 						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = RAPPP8VUYV;
 					};
 				};
 			};
@@ -415,28 +505,39 @@
 			buildActionMask = 2147483647;
 			files = (
 				497C69B11C52709000FCB6F5 /* TreePrediction.swift in Sources */,
+				49B6D8061EF7E65000CCA9CF /* LogisticRegression.m in Sources */,
 				497C69A31C52709000FCB6F5 /* AssociationItem.swift in Sources */,
+				49B6D80A1EF7E65000CCA9CF /* NSMutableData+BMLData.m in Sources */,
 				497C69AF1C52709000FCB6F5 /* Predicates.swift in Sources */,
 				497C69A41C52709000FCB6F5 /* AssociationRule.swift in Sources */,
 				497C69AB1C52709000FCB6F5 /* LogisticRegression.swift in Sources */,
 				497C69AD1C52709000FCB6F5 /* MultiModel.swift in Sources */,
 				497C69B71C52709000FCB6F5 /* Resource.swift in Sources */,
+				49B6D8081EF7E65000CCA9CF /* NSError+BMLError.m in Sources */,
 				497C69B41C52709000FCB6F5 /* BMLEnums.swift in Sources */,
 				497C69A11C52709000FCB6F5 /* Anomaly.swift in Sources */,
+				49B6D8181EF7E6BB00CCA9CF /* TreePrediction.m in Sources */,
+				49B6D7FE1EF7E65000CCA9CF /* BMLResourceProtocol.m in Sources */,
 				497C69A61C52709000FCB6F5 /* ChiSquare.swift in Sources */,
 				497C69B51C52709000FCB6F5 /* BMLHTTPConnector.swift in Sources */,
 				497C69A81C52709000FCB6F5 /* Ensemble.swift in Sources */,
+				49B6D8141EF7E69B00CCA9CF /* PredictionTree.m in Sources */,
+				49B6D8121EF7E69B00CCA9CF /* Predicates.m in Sources */,
 				497C69B01C52709000FCB6F5 /* PredictionTree.swift in Sources */,
 				497C69B81C52709000FCB6F5 /* ResourceStatus.swift in Sources */,
 				497C69AE1C52709000FCB6F5 /* MultiVote.swift in Sources */,
 				497C69A91C52709000FCB6F5 /* FieldResource.swift in Sources */,
 				497C69A21C52709000FCB6F5 /* Association.swift in Sources */,
+				49B6D8001EF7E65000CCA9CF /* BMLResourceTypeIdentifier.m in Sources */,
+				49B6D8021EF7E65000CCA9CF /* BMLUtils.m in Sources */,
+				49B6D80C1EF7E65000CCA9CF /* TopicModel.m in Sources */,
 				497C69AC1C52709000FCB6F5 /* Model.swift in Sources */,
 				497C69A51C52709000FCB6F5 /* Centroid.swift in Sources */,
 				497C69B31C52709000FCB6F5 /* BMLConnector.swift in Sources */,
 				497C69A71C52709000FCB6F5 /* Cluster.swift in Sources */,
 				497C69B91C52709000FCB6F5 /* ResourceTypes.swift in Sources */,
 				497C69B61C52709000FCB6F5 /* BMLHTTPMethodHandler.swift in Sources */,
+				49B6D8041EF7E65000CCA9CF /* FieldResource.m in Sources */,
 				497C69BA1C52709000FCB6F5 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -569,6 +670,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -579,6 +681,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bigml.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = bigmlSwift;
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -588,6 +691,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -598,6 +702,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.bigml.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = bigmlSwift;
+				SDKROOT = macosx10.11;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;

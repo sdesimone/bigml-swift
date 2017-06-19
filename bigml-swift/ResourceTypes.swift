@@ -30,6 +30,8 @@ import Foundation
     case Anomaly
     case Ensemble
     case LogisticRegression
+    case TopicModel
+    case TopicDistribution
     case Association
     case Evaluation
     case Prediction
@@ -62,6 +64,10 @@ import Foundation
             self = Ensemble
         case "logisticregression":
             self = LogisticRegression
+        case "topicmodel":
+            self = TopicModel
+        case "topicdistribution":
+            self = TopicDistribution
         case "association":
             self = Association
         case "evaluation":
@@ -113,6 +119,10 @@ import Foundation
             return "ensemble"
         case LogisticRegression:
             return "logisticregression"
+        case TopicModel:
+            return "topicmodel"
+        case TopicDistribution:
+            return "topicdistribution"
         case Association:
             return "association"
         case Configuration:
